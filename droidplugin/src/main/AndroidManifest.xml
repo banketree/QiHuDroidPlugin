@@ -25,8 +25,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.morgoo.droidplugin">
-
+    package="com.eotu.droidplugin">
 
     <!--预申请很多权限。也是为了插件使用-->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -607,7 +606,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP00"
-            android:authorities="com.testcore.droidplugin_stub_P00"
+            android:authorities="${applicationId}.droidplugin_stub_P00"
             android:exported="false" />
 
 
@@ -1066,7 +1065,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP01"
-            android:authorities="com.testcore.droidplugin_stub_P01"
+            android:authorities="${applicationId}.droidplugin_stub_P01"
             android:exported="false"
 
             android:process=":PluginP01" />
@@ -1527,7 +1526,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP02"
-            android:authorities="com.testcore.droidplugin_stub_P02"
+            android:authorities="${applicationId}.droidplugin_stub_P02"
             android:exported="false"
 
             android:process=":PluginP02" />
@@ -1990,7 +1989,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP03"
-            android:authorities="com.testcore.droidplugin_stub_P03"
+            android:authorities="${applicationId}.droidplugin_stub_P03"
             android:exported="false"
 
             android:process=":PluginP03" />
@@ -2452,7 +2451,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP04"
-            android:authorities="com.testcore.droidplugin_stub_P04"
+            android:authorities="${applicationId}.droidplugin_stub_P04"
             android:exported="false"
 
             android:process=":PluginP04" />
@@ -2913,7 +2912,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP05"
-            android:authorities="com.testcore.droidplugin_stub_P05"
+            android:authorities="${applicationId}.droidplugin_stub_P05"
             android:exported="false"
 
             android:process=":PluginP05" />
@@ -3376,7 +3375,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP06"
-            android:authorities="com.testcore.droidplugin_stub_P06"
+            android:authorities="${applicationId}.droidplugin_stub_P06"
             android:exported="false"
 
             android:process=":PluginP06" />
@@ -3841,7 +3840,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP07"
-            android:authorities="com.testcore.droidplugin_stub_P07"
+            android:authorities="${applicationId}.droidplugin_stub_P07"
             android:exported="false"
 
             android:process=":PluginP07" />
@@ -4286,7 +4285,7 @@
         </service>
         <provider
             android:name="com.morgoo.droidplugin.stub.ContentProviderStub$StubP08"
-            android:authorities="com.testcore.droidplugin_stub_P08"
+            android:authorities="${applicationId}.droidplugin_stub_P08"
             android:exported="false"
             android:process=":PluginP08" />
 
