@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QiHuDroidPlugin.iml" filepath="$PROJECT_DIR$/QiHuDroidPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droidplugin/droidplugin.iml" filepath="$PROJECT_DIR$/droidplugin/droidplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testPlugin/testPlugin.iml" filepath="$PROJECT_DIR$/testPlugin/testPlugin.iml" />
+    </modules>
+  </component>
+</project>
